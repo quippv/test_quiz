@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export const Question = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [time, setTime] = useState(10);
+  const [time, setTime] = useState(30);
   const [inQuiz, setInQuiz] = useState(true);
 
   const success = () => toast.success("🦄 Wow so easy!");
